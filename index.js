@@ -1,8 +1,6 @@
 const express = require("express");
-const dotenv = require("dotenv");
 const { StreamChat } = require("stream-chat");
 
-dotenv.config();
 
 const client = StreamChat.getInstance(
   "uregwa5p2pc2",
